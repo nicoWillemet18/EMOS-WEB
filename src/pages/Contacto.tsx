@@ -8,7 +8,7 @@ export default function Contacto() {
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div className="animate-in-up max-w-3xl">
           <span className="mb-4 block font-mono text-xs uppercase tracking-[0.2em] text-accent">
-            Quiénes somos
+            Quiénes somos y Contacto
           </span>
 
           <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-tighter md:text-6xl">
@@ -16,22 +16,32 @@ export default function Contacto() {
           </h1>
 
           <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Empresa Municipal de Obras y Servicios S.A.U. (EMOS) es una empresa constituida en el año 2020, 
+            Empresa Municipal de Obras y Servicios S.A.U. (EMOS) es una empresa constituida en el año 2020,
             orientada a la gestión y prestación de servicios vinculados al desarrollo y mantenimiento de infraestructura para la comunidad.
-            Su actividad principal comprende la administración, operación y mantenimiento de la Planta de Tratamiento y 
+            Su actividad principal comprende la administración, operación y mantenimiento de la Planta de Tratamiento y
             Disposición Final de Residuos Sólidos Urbanos, contribuyendo a una gestión responsable y adecuada de los residuos generados en el ámbito urbano.
           </p>
         </div>
       </section>
 
       {/* Contacto */}
-      <main className="bg-foreground px-6 py-24 text-background">
+      <section className="bg-foreground px-6 py-24 text-background">
+
+        {/* Título */}
+        <div className="mx-auto mb-16 max-w-6xl">
+          <div className="animate-in-up">
+            <h1 className="text-4xl font-extrabold leading-none tracking-tighter md:text-6xl">
+              <span className="text-accent">Contacto</span>
+            </h1>
+          </div>
+        </div>
+
+        {/* Contenido */}
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-16 md:grid-cols-2">
-          
+
           <div className="animate-in-up">
             <h2 className="mb-8 text-4xl font-extrabold leading-none tracking-tighter md:text-6xl">
-              Estamos para atender sus{" "}
-              <span className="text-accent">consultas.</span>
+              Estamos para atender sus consultas.
             </h2>
 
             <div className="space-y-6">
@@ -76,7 +86,7 @@ export default function Contacto() {
           </div>
 
         </div>
-      </main>
+      </section>
 
     </div>
   );
