@@ -6,6 +6,11 @@ const servicios = [
       "Planta de Tratamiento y Disposición Final de Residuos Sólidos Urbanos",
     text: "Administración, operación y mantenimiento de la Planta de Tratamiento y Disposición Final de Residuos Sólidos Urbanos, garantizando una gestión adecuada y responsable de los residuos generados en el ámbito urbano.",
   },
+  {
+  tag: "02 / ARTICULACIÓN INSTITUCIONAL",
+  title: "Fideicomiso Mi Casa Mi Vida",
+  text: "Articulación entre EMOS y el Fideicomiso Mi Casa Mi Vida para el desarrollo de acciones vinculadas con la entrega de viviendas, contribuyendo a brindar soluciones habitacionales para la comunidad.",
+  },
 ];
 
 export default function Servicios() {
@@ -23,8 +28,8 @@ export default function Servicios() {
           </h1>
 
           <p className="max-w-[55ch] text-muted-foreground">
-            Administración, operación y mantenimiento de la Planta de
-            Tratamiento y Disposición Final de Residuos Sólidos Urbanos.
+            Actividades y proyectos que forman parte de la gestión y el trabajo que
+            desarrolla EMOS en beneficio de la comunidad.
           </p>
         </div>
 
